@@ -5,8 +5,11 @@ def msquare(mul):
 
 msquare(4)
 
+
 def mult(num1, num2):
     nu = num1 * num2
+    assert num1 != 0
     return nu
 
-multi(5,6)
+
+multi(5, 6)
